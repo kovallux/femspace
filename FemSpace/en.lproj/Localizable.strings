@@ -1,0 +1,186 @@
+/* 
+  Localizable.strings
+  FemSpace
+
+  Created by Сергей Коваль on 3/25/14.
+  Copyright (c) 2014 kovallux Dev. All rights reserved.
+*/
+
+// FirstViewController, Constants
+"Удалить из Избранного" = "Remove from Favorites";
+"Добавить в Избранное" = "Add to Favorites";
+"Календарь контроллер" = "Pregnancy Calendar";
+"Позы для беременных" = "Poses for Pregnancy";
+"Первый Триместр" = "First Trimester";
+"Второй Триместр" = "Second Trimester";
+"Третий Триместр" = "Third Trimester";
+"Favorites.plist" = "Favorites-EN.plist";
+"MyData.plist" = "MyData-EN.plist";
+"Платный функционал" = "Find out gender of child and birth date";
+
+"1-й триместр" = "1st Trimester";
+"2-й триместр" = "2nd Trimester";
+"3-й триместр" = "3rd Trimester";
+
+//"Добро пожаловать!" = "Welcome!";
+//"introPage1" = "Who said that was impossible? Welcome to the Kama Sutra for the pregnant :)";
+
+//"Есть все возможности!" = "You have all the possibilities!";
+//"introPage2" = "Yes, of course, the Kama Sutra during pregnancy is no easy endeavor. But in the case your pregnancy flows without complications and your baby behaves quietly, then you may experience a multitude of pleasant feelings during pregnant sex.";
+
+//"Выбирай позу с умом!" = "Shoose your pose wisely!";
+//"introPage3" = "But remember: the Kama Sutra for the pregnant has certain limitations. It is better to choose sex positions based on the advice of specialists. We have prepared for you a list of ideal positions for each trimester of the pregnancy.";
+
+"Добро пожаловать!" = "Welcome!";
+"introPage1" = "Discover the most comprehensive pregnancy calendar on AppStore! It has only the information you need and no other distractive features.";
+
+"Есть все возможности!" = "MAIN FEATURES";
+"introPage2" = "View your pregnancy calendar • see image of your fetus • read description of your condition • look at advices • follow to-do list • know about risks and how to avoid it.";
+
+"Выбирай позу с умом!" = "ADDITIONAL FEATURES";
+"introPage3" = "Calculate date of your future child's birth • Calculate the gender of your future child (girl or boy)!";
+
+"introPageTitle4" = "SEX POSES FOR PREGNANCY!";
+"introPage4" = "Yes, of course, the Kama Sutra during pregnancy is no easy endeavor. But in the case your pregnancy flows without complications and your baby behaves quietly, then you may experience a multitude of pleasant feelings during pregnant sex. Specialists have prepared for you a list of ideal positions for each trimester of the pregnancy.";
+
+"Пропустить" = "Skip";
+
+"Поза «Богиня»" = "Pose «The Goddess»";
+"Поза «Двойные качели»" = "Pose «Double Swing»";
+"Поза «Кошка»" = "Pose «The Cat»";
+"Поза «Куртизанка»" = "Pose «The Courtesan»";
+"Поза «Лотос»" = "Pose «The Lotus»";
+"Поза «Миссионерская поза»" = "Pose «Missionary position»";
+"Поза «Раскрытый цветок»" = "Pose «The Open Flower»";
+"Поза «Секрет»" = "Pose «The Secret»";
+"Поза «Спящая красавица»" = "Pose «The Sleeping Beauty»";
+"Поза «Тростник»" = "Pose «The Reed»";
+
+"firstHeaderSectionTitle" = "If you don't suffer from toxipathy and have no other unpleasant feelings, you might want to test the following positions from the Kama Sutra for the pregnant:";
+
+
+// SecondViewController
+"Поза «Амазонка»" = "Pose «The Amazon»";
+"Поза «Андромаха»" = "Pose «Andromache»";
+"Поза «Бабочка»" = "Pose «The Butterfly»";
+"Поза «В ритме танца»" = "Pose «Dance Rhythm»";
+"Поза «Догги-стайл»" = "Pose «Doggy Style»";
+"Поза «Качели»" = "Pose «The Swing»";
+"Поза «Наковальня»" = "Pose «The Anvil»";
+"Поза «Тигрица»" = "Pose «The Tigress»";
+
+"secondHeaderSectionTitle" = "Your tummy has grown, and some positions may cause discomfort. But no need to get upset, there are comfortable positions for the second period of gestation, such as:";
+
+
+// ThirdViewController
+"Поза «Ложка»" = "Pose «The Spoon»";
+"Поза «Перпендикуляр»" = "Pose «The Perpendicular»";
+"Поза «Полет чайки»" = "Pose «The Seagull’s Flight»";
+"Поза «Союз пчел»" = "Pose «The Bee Union»";
+"Поза «Удобный куннилингус»" = "Pose «Comfortable Cunnilingus»";
+
+"thirdHeaderSectionTitle" = "In the third trimester many pregnant ladies experience the awakening of a special sexuality. Thus, it is high time to enjoy the following positions of the Kama Sutra for the pregnant:";
+
+// FavoritesViewController
+"☆ Избранное ☆" = "☆ Favorites ☆";
+"Нет избранных поз" = "No favorite poses";
+"Удалить из Избранного" = "Remove from Favorites";
+
+// PersonalViewController
+"Сначала введите ваш День\n рождения" = "First enter your birth date";
+"Неправильный email" = "Wrong email format";
+"МОИ ДАННЫЕ" = "MY PERSONAL DATA";
+"Беременность и пол ребенка" = "Pregnancy and gender of child";
+
+"Введите ваше имя" = "Enter your name";
+"Введите вашу фамилию" = "Enter your last name";
+"Введите дату рождения" = "Enter your birth date";
+"Введите ваш email" = "Enter your email";
+"Введите 1-й день менструации" = "🔒 1st day of menstruation";
+"Введите 1-й день менструации2" = "1st day of menstruation";
+"Дата родов" = "Date of birth";
+"Пол ребенка" = "Gender of child";
+"Календарь беременности" = "🔒 Pregnancy calendar";
+"Календарь беременности2" = "Pregnancy calendar";
+"Скоро добавим 😉" = "Coming soon 😉";
+
+"Мои Данные" = "My Personal Data";
+"Про ребёнка" = "About Your Child";
+
+"Введите имя" = "Enter name";
+"Отменить" = "Cancel";
+"Сохранить" = "Save";
+"Ваше имя" = "Your name";
+"Введите Фамилию" = "Enter last name";
+"Ваша фамилия" = "Your last name";
+"Введите Email" = "Enter Email";
+"Ваш email" = "Your email";
+"Роды: %@" = "Birthdate: %@";
+"Мальчик" = "Boy";
+"Девочка" = "Girl";
+"Неопределено" = "Undefined";
+
+"Покупки" = "Purchases";
+"Ошибка" = "Error";
+"Ошибка возраста" = "Difference between birth date and last menstruation date should be equal or more than 18 years and equal or less than 44 years.";
+"Подтвердите восстановление покупок" = "Confirm restore of purchases";
+
+"Вычисление даты рождения" = "Calculation of child's birth date";
+"Вычисление даты рождения - описание" = " Date of birth is calculated according to medical formula of Negele. You need to enter Your birth date and the date of your last regular menstruation before pregnancy.";
+
+"Вычисление пола ребенка" = "Calculation of child's gender";
+"Вычисление пола ребенка - описание" = "Gender of child is calculated by a complex matrix formula. You need to enter Your birth date and the date of your last regular menstruation before pregnancy. The most exact result is obtained if your menstruation was close to the middle of a month. First and last dates of month are marginal and not very exact.";
+
+"Помощь" = "Help";
+"Стихия" = "Element";
+
+// WEPopover
+"Легкие позы для женщин" = "Easy poses for women";
+"Легкие позы для мужчин" = "Easy poses for men";
+"Стандартный список" = "Standard list";
+
+// PoseTableViewController
+"Добавлено!" = "Added!";
+"Удалено!" = "Removed!";
+
+"АКТИВНОСТЬ В ЭТОЙ ПОЗЕ" = "ACTIVITY IN THIS POSE";
+"КАК ПРАКТИКОВАТЬ СЕКС" = "HOW TO PRACTICE SEX";
+"ПРЕИМУЩЕСТВА ЭТОЙ ПОЗЫ" = "ADVANTAGES OF THIS POSE";
+"РИСК ЭТОЙ ПОЗЫ" = "RISK OF THIS POSE";
+
+"Он" = "He";
+"Она" = "She";
+
+"Отправить в Facebook" = "Post to Facebook";
+"Отправить в Twitter" = "Post to Twitter";
+"Отправить в Vkontakte" = "Post to Vkontakte";
+"Отправить по Email" = "Send via Email";
+
+"%@ — ПрегнаСутра для iOS" = "%@ — PregnaSutra for iOS";
+"ПрегнаСутра для iOS" = "PregnaSutra for iOS";
+"Опубликовано в VK успешно" = "Posted to VK successfully";
+"Подтвердите внутреннюю покупку" = "Confirm this In-App Purchase";
+
+//Comments
+"Комментарии" = "Comments";
+"Добавить комментарий" = "Add comment";
+"Ввод" = "Send";
+"Очистить" = "Reset";
+"шт" = "pc";
+"Введите комментарий" = "Enter comment";
+"Ваш комментарий" = "Your comment";
+
+// Week
+"ЧЕКЛИСТ (отмечайте сделанное!)" = "CHECKLIST (mark what's done!)";
+"Ребенок" = "Your child";
+"А ты знала, что..." = "Did you know...";
+"Твое тело" = "Your body";
+"Обрати внимание" = "Pay attention";
+
+
+"Позы %d-го триместра" = "Poses of %d trimester";
+"Все позы %d-го триместра" = "All poses of %d trimester";
+
+"%ld лет" = "%ld years";
+"%ld год" = "%ld years";
+"%ld года" = "%ld years";

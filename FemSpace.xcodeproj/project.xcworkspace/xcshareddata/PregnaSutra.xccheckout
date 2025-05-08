@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>72101857-28E3-4983-9437-4B4BA21613DF</string>
+	<key>IDESourceControlProjectName</key>
+	<string>PregnaSutra</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>35BBB0401BBF923A0AFA542DD1ACAC7EAB295DBA</key>
+		<string>https://github.com/kovallux/PregnaSutra.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>PregnaSutra.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>35BBB0401BBF923A0AFA542DD1ACAC7EAB295DBA</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/kovallux/PregnaSutra.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>35BBB0401BBF923A0AFA542DD1ACAC7EAB295DBA</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>35BBB0401BBF923A0AFA542DD1ACAC7EAB295DBA</string>
+			<key>IDESourceControlWCCName</key>
+			<string>PregnaSutra</string>
+		</dict>
+	</array>
+</dict>
+</plist>

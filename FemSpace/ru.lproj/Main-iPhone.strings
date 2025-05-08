@@ -1,0 +1,57 @@
+
+/* Class = "IBUILabel"; text = "Subtitle"; ObjectID = "2be-bs-wmG"; */
+"2be-bs-wmG.text" = "Subtitle";
+
+/* Class = "IBUILabel"; text = "Loading ..."; ObjectID = "3gW-aj-Xkf"; */
+"3gW-aj-Xkf.text" = "Загрузка видео из Youtube...";
+
+/* Class = "IBUITabBarItem"; title = "Позы"; ObjectID = "4IH-hI-d1o"; */
+"4IH-hI-d1o.title" = "Позы";
+
+/* Class = "IBUITabBarItem"; title = "Избранное"; ObjectID = "4xy-18-bFf"; */
+"4xy-18-bFf.title" = "Избранное";
+
+/* Class = "IBUITabBarItem"; title = "Календарь"; ObjectID = "76i-iz-rbs"; */
+"76i-iz-rbs.title" = "Календарь";
+
+/* Class = "IBUILabel"; text = "Title"; ObjectID = "7Ad-Ia-gxB"; */
+"7Ad-Ia-gxB.text" = "Title";
+
+/* Class = "IBUILabel"; text = "Title"; ObjectID = "8bg-VK-Gq3"; */
+"8bg-VK-Gq3.text" = "Title";
+
+/* Class = "IBUILabel"; text = "Title"; ObjectID = "93o-eP-GrK"; */
+"93o-eP-GrK.text" = "Title";
+
+/* Class = "IBUILabel"; text = "Subtitle"; ObjectID = "G0W-7B-KwE"; */
+"G0W-7B-KwE.text" = "Subtitle";
+
+/* Class = "IBUILabel"; text = "Title"; ObjectID = "MN0-J3-Zqy"; */
+"MN0-J3-Zqy.text" = "Title";
+
+/* Class = "IBUILabel"; text = "Title"; ObjectID = "RKE-gK-Tuf"; */
+"RKE-gK-Tuf.text" = "Title";
+
+/* Class = "IBUITabBarItem"; title = "Ребенок"; ObjectID = "WGC-WP-OOU"; */
+"WGC-WP-OOU.title" = "Ребенок";
+
+/* Class = "IBUILabel"; text = "Title"; ObjectID = "XbB-mX-s1w"; */
+"XbB-mX-s1w.text" = "Title";
+
+/* Class = "IBUILabel"; text = "Title"; ObjectID = "bv9-p3-qwQ"; */
+"bv9-p3-qwQ.text" = "Title";
+
+/* Class = "IBUILabel"; text = "Title"; ObjectID = "i3B-na-xdO"; */
+"i3B-na-xdO.text" = "Title";
+
+/* Class = "IBUILabel"; text = "Title"; ObjectID = "i7c-aL-KF1"; */
+"i7c-aL-KF1.text" = "Title";
+
+/* Class = "IBUINavigationItem"; title = "Root View Controller"; ObjectID = "iaD-aC-181"; */
+"iaD-aC-181.title" = "Root View Controller";
+
+/* Class = "IBUINavigationItem"; title = "Root View Controller"; ObjectID = "j1r-mz-yvO"; */
+"j1r-mz-yvO.title" = "Root View Controller";
+
+/* Class = "IBUILabel"; text = "Detail"; ObjectID = "rmh-6r-OLD"; */
+"rmh-6r-OLD.text" = "Detail";

@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="iMq-oy-hau">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <scenes>
+        <!--Our apps-->
+        <scene sceneID="Ef5-oc-c09">
+            <objects>
+                <viewController storyboardIdentifier="adView" id="Emr-Og-pdi" customClass="ADViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="l8p-VU-MxA"/>
+                        <viewControllerLayoutGuide type="bottom" id="aug-yA-aZP"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="NSq-nY-HiL">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9ye-fl-7Zu">
+                                <rect key="frame" x="0.0" y="64" width="320" height="252"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Kovallux" translatesAutoresizingMaskIntoConstraints="NO" id="EAk-hS-6ST">
+                                        <rect key="frame" x="120" y="8" width="80" height="80"/>
+                                        <animations/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="80" id="AwG-bq-3Hl"/>
+                                            <constraint firstAttribute="height" constant="80" id="eld-7w-CxC"/>
+                                        </constraints>
+                                    </imageView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S0P-1A-iLj">
+                                        <rect key="frame" x="8" y="118" width="304" height="126"/>
+                                        <animations/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <string key="text">Ever wanted to know how much does it cost to develop professional iOS/Android application? Now you can calculate it!
+• Pick the features you want and you will get an estimate of costs.
+• Send your estimate to email.
+• You can also order development of your application directly from this app.</string>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kovallux Dev" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tbL-3s-ePF">
+                                        <rect key="frame" x="8" y="94" width="304" height="21"/>
+                                        <animations/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="21" id="bLT-ee-Sdh"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7YR-aJ-bdA">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="252"/>
+                                        <animations/>
+                                        <connections>
+                                            <action selector="launchPregnaSutra:" destination="Emr-Og-pdi" eventType="touchUpInside" id="vKQ-Ua-DMO"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <animations/>
+                                <color key="backgroundColor" red="0.78431372549019607" green="0.41960784313725491" blue="0.6588235294117647" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="tbL-3s-ePF" firstAttribute="leading" secondItem="9ye-fl-7Zu" secondAttribute="leading" constant="8" id="2jL-AP-KB7"/>
+                                    <constraint firstAttribute="trailing" secondItem="7YR-aJ-bdA" secondAttribute="trailing" id="49Q-Ad-fOb"/>
+                                    <constraint firstAttribute="trailing" secondItem="tbL-3s-ePF" secondAttribute="trailing" constant="8" id="4cw-4z-FQk"/>
+                                    <constraint firstAttribute="trailing" secondItem="S0P-1A-iLj" secondAttribute="trailing" constant="8" id="5QT-vJ-gqd"/>
+                                    <constraint firstItem="EAk-hS-6ST" firstAttribute="top" secondItem="9ye-fl-7Zu" secondAttribute="top" constant="8" id="68f-Qo-egz"/>
+                                    <constraint firstItem="7YR-aJ-bdA" firstAttribute="top" secondItem="9ye-fl-7Zu" secondAttribute="top" id="8P8-H6-f6w"/>
+                                    <constraint firstItem="EAk-hS-6ST" firstAttribute="centerX" secondItem="9ye-fl-7Zu" secondAttribute="centerX" id="9MZ-VP-aTU"/>
+                                    <constraint firstItem="tbL-3s-ePF" firstAttribute="top" secondItem="EAk-hS-6ST" secondAttribute="bottom" constant="6" id="Aqv-Ct-ps9"/>
+                                    <constraint firstItem="S0P-1A-iLj" firstAttribute="top" secondItem="tbL-3s-ePF" secondAttribute="bottom" constant="3" id="HQx-Hr-Y0i"/>
+                                    <constraint firstItem="S0P-1A-iLj" firstAttribute="leading" secondItem="9ye-fl-7Zu" secondAttribute="leading" constant="8" id="JD4-Pp-RpA"/>
+                                    <constraint firstItem="7YR-aJ-bdA" firstAttribute="leading" secondItem="9ye-fl-7Zu" secondAttribute="leading" id="OoA-eO-PlK"/>
+                                    <constraint firstAttribute="bottom" secondItem="7YR-aJ-bdA" secondAttribute="bottom" id="adW-WE-LnY"/>
+                                    <constraint firstAttribute="bottom" secondItem="S0P-1A-iLj" secondAttribute="bottom" constant="8" id="gYK-U1-5FE"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eco-xr-6Rd">
+                                <rect key="frame" x="0.0" y="316" width="320" height="252"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="VisualHear" translatesAutoresizingMaskIntoConstraints="NO" id="pkt-KT-Hla">
+                                        <rect key="frame" x="120" y="8" width="80" height="80"/>
+                                        <animations/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="80" id="4vT-iu-Ezj"/>
+                                            <constraint firstAttribute="width" constant="80" id="gAm-sQ-49Q"/>
+                                        </constraints>
+                                    </imageView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eEE-vs-gis">
+                                        <rect key="frame" x="8" y="120" width="304" height="124"/>
+                                        <animations/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <string key="text">It’s the first assistive iOS app made and crafted especially for people with hearing impairment. Let your friend or the loved one talk into your device and you will instantly see what they are saying to you. You can as well translate that text to 40 languages and share it to social networks or via other ways of sharing.</string>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p0H-TN-nmF">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="252"/>
+                                        <animations/>
+                                        <connections>
+                                            <action selector="launchVisualHear:" destination="Emr-Og-pdi" eventType="touchUpInside" id="IRP-y1-e9x"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Visual Hear - live translator" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ORY-5Q-YoJ">
+                                        <rect key="frame" x="8" y="96" width="304" height="21"/>
+                                        <animations/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="21" id="wAC-jz-5bw"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <animations/>
+                                <color key="backgroundColor" red="0.0" green="0.80000000000000004" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="ORY-5Q-YoJ" firstAttribute="top" secondItem="pkt-KT-Hla" secondAttribute="bottom" constant="8" id="1ng-a0-NWl"/>
+                                    <constraint firstAttribute="bottom" secondItem="p0H-TN-nmF" secondAttribute="bottom" id="7fr-mx-z35"/>
+                                    <constraint firstItem="ORY-5Q-YoJ" firstAttribute="leading" secondItem="eco-xr-6Rd" secondAttribute="leading" constant="8" id="C0y-Sw-m9b"/>
+                                    <constraint firstAttribute="trailing" secondItem="p0H-TN-nmF" secondAttribute="trailing" id="D2n-tk-VgV"/>
+                                    <constraint firstAttribute="bottom" secondItem="eEE-vs-gis" secondAttribute="bottom" constant="8" id="HkF-A9-Bx4"/>
+                                    <constraint firstAttribute="trailing" secondItem="eEE-vs-gis" secondAttribute="trailing" constant="8" id="L7s-gz-1T2"/>
+                                    <constraint firstItem="pkt-KT-Hla" firstAttribute="top" secondItem="eco-xr-6Rd" secondAttribute="top" constant="8" id="TS4-0f-2NC"/>
+                                    <constraint firstItem="p0H-TN-nmF" firstAttribute="leading" secondItem="eco-xr-6Rd" secondAttribute="leading" id="XHg-Sz-i3u"/>
+                                    <constraint firstItem="pkt-KT-Hla" firstAttribute="centerX" secondItem="eco-xr-6Rd" secondAttribute="centerX" id="d6w-Tq-y6z"/>
+                                    <constraint firstItem="eEE-vs-gis" firstAttribute="top" secondItem="ORY-5Q-YoJ" secondAttribute="bottom" constant="3" id="fFU-8D-Pqb"/>
+                                    <constraint firstItem="eEE-vs-gis" firstAttribute="leading" secondItem="eco-xr-6Rd" secondAttribute="leading" constant="8" id="i3D-2G-NjB"/>
+                                    <constraint firstItem="p0H-TN-nmF" firstAttribute="top" secondItem="eco-xr-6Rd" secondAttribute="top" id="vZB-UP-yMI"/>
+                                    <constraint firstAttribute="trailing" secondItem="ORY-5Q-YoJ" secondAttribute="trailing" constant="8" id="vvg-T2-iUn"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="eco-xr-6Rd" firstAttribute="height" secondItem="9ye-fl-7Zu" secondAttribute="height" id="Nou-Ze-Kcj"/>
+                            <constraint firstAttribute="trailing" secondItem="9ye-fl-7Zu" secondAttribute="trailing" id="U3g-H6-XEb"/>
+                            <constraint firstItem="9ye-fl-7Zu" firstAttribute="top" secondItem="l8p-VU-MxA" secondAttribute="bottom" id="Z3m-P4-H3d"/>
+                            <constraint firstItem="9ye-fl-7Zu" firstAttribute="leading" secondItem="NSq-nY-HiL" secondAttribute="leading" id="dc3-eL-E4M"/>
+                            <constraint firstItem="eco-xr-6Rd" firstAttribute="leading" secondItem="NSq-nY-HiL" secondAttribute="leading" id="dnA-4E-DP8"/>
+                            <constraint firstAttribute="trailing" secondItem="eco-xr-6Rd" secondAttribute="trailing" id="gaJ-oH-qN6"/>
+                            <constraint firstItem="eco-xr-6Rd" firstAttribute="top" secondItem="9ye-fl-7Zu" secondAttribute="bottom" id="sn9-Xx-dlF"/>
+                            <constraint firstItem="aug-yA-aZP" firstAttribute="top" secondItem="eco-xr-6Rd" secondAttribute="bottom" id="yCQ-9Y-GpX"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Our apps" id="4mr-Ej-7D4">
+                        <barButtonItem key="leftBarButtonItem" systemItem="done" id="Y5J-7a-7Tm">
+                            <connections>
+                                <action selector="dismiss:" destination="Emr-Og-pdi" id="tRM-5I-phY"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jRK-2H-udS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1687" y="-1208"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="CoW-3D-odB">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="iMq-oy-hau" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="gG3-Xf-jAp">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Emr-Og-pdi" kind="relationship" relationship="rootViewController" id="Fnd-oM-Eev"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="heZ-y7-Ypt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1155" y="-1208"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Kovallux" width="180" height="180"/>
+        <image name="VisualHear" width="76" height="76"/>
+    </resources>
+    <color key="tintColor" red="0.5607843137254902" green="0.17254901960784313" blue="0.42745098039215684" alpha="1" colorSpace="calibratedRGB"/>
+</document>
